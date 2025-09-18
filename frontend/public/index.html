@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sweet Shop</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 20px; }
+      button { margin-top: 10px; padding: 10px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      const root = document.getElementById('root');
+
+      // Create elements
+      const heading = document.createElement('h1');
+      heading.textContent = 'Welcome to Sweet Shop 🍬';
+
+      const button = document.createElement('button');
+      button.textContent = 'Click me for a sweet!';
+
+      const message = document.createElement('p');
+
+      // Add interactivity
+      button.addEventListener('click', () => {
+        const sweets = ['Chocolate', 'Lollipop', 'Gum', 'Candy Cane', 'Jelly Bean'];
+        const randomSweet = sweets[Math.floor(Math.random() * sweets.length)];
+        message.textContent = `You got: ${randomSweet}! 🎉`;
+      });
+
+      // Append to root
+      root.appendChild(heading);
+      root.appendChild(button);
+      root.appendChild(message);
+    </script>
+  </body>
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sweet Shop Management System - Full Stack
 
 This repo contains a Django REST backend and a React frontend.
@@ -29,3 +30,7 @@ Frontend expects API at REACT_APP_API_URL (defaults to http://localhost:8000/api
 
 # Sweet-Shop
 # Sweet-Shop
+=======
+# Sweet-Shop
+Sweet-Shop-Django-with-React
+>>>>>>> 4389beaef9a1be1088bd4aa49901b500214d1544
