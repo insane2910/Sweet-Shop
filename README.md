@@ -28,3 +28,4 @@ API endpoints:
 Frontend expects API at REACT_APP_API_URL (defaults to http://localhost:8000/api)
 
 # Sweet-Shop
+# Sweet-Shop
